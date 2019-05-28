@@ -1,0 +1,9 @@
+{
+  "/api/*":{
+    "target":"https://itg-prd-recruit.appspot.com",
+    "secure":false,
+    "pathRewrite": {"^/api" : "https://itg-prd-recruit.appspot.com/api"},
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

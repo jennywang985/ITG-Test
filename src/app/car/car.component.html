@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    <img [src]="'../../assets/'+cars.media[0].url"/>
+  </li>
+  <li>
+    <h3>{{cars.media[0].name+'  '+cars.id+'  '+cars.modelYear | uppercase}}</h3>
+  </li>
+  <li class='price'>
+    From {{car.price}}
+  </li>
+  <li class='description'>
+    {{car.description}}
+  </li>
+</ul>
